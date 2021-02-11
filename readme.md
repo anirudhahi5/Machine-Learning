@@ -9,5 +9,6 @@ This is given by Y = B0 * X1 + C
 #### 2. Multiple Linear Regression
 This contains dataset of Profit obtained by 1000 companies where the profit of the companies increase as the R&D spend & Marketing spent budget is more and Administration Cost is reduced.
 This is given by Y = B0 * X1 + B1 * X2 + B2 * X3 + C
+Another case study consists of a dataset showing the Real Estate price which is dependent on multiple variables.
 
 #### 3. Logistic Regression
