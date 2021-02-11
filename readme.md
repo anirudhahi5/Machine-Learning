@@ -12,3 +12,5 @@ This is given by Y = B0 * X1 + B1 * X2 + B2 * X3 + C
 Another case study consists of a dataset showing the Real Estate price which is dependent on multiple variables.
 
 #### 3. Logistic Regression
+This contains a case study of Bank loan disbursement based on interest rate and other parameters.
+Another case containts the social media advertisement case which predicts the user has purchased a product or not based on his age and gender.
