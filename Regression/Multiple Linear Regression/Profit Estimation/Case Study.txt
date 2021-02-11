@@ -1,0 +1,6 @@
+Case Study of different Companies who want to make Profit. 
+There are 1000 Companies which have spent in different investment and still they are not able to generate their desired profit. 
+They struggle over the period of Years looking for some solutions which will understand the problem and helps to create solution. 
+The CEO of different states of the different companies are looking for a Data Scientist to solve this kind of Problem 
+To make a model which can predict profit and solve the entire problem Scenario. 
+Also Use different statistical Models to analyse the data and create some insights.
