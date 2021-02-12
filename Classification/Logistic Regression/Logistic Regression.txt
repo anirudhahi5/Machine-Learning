@@ -1,0 +1,21 @@
+Don’t get confused by its name! 
+It is a classification not a regression algorithm.
+It is used to estimate discrete values( Binary values like 0/1,yes/no,true/false ) based on given set of independent variable(s).
+In simple words, it predicts the probability of occurrence of an event by fitting data to a logit function.
+Hence, it is also known as logit regression.
+Since, it predicts the probability, its output values lies between 0 and 1 (as expected).
+
+Coming to the math,the log odds ofthe outcome is modeled as a linear combination ofthe predictor variables.
+odds= p/ (1-p) = probability of event occurrence / probability of not event occurrence
+ln(odds) = ln(p/(1-p))
+logit(p) = ln(p/(1-p)) = b0+b1X1+b2X2+b3X3....+bkXk
+
+Above, p is the probability of presence of the characteristic of interest.
+It chooses parameters that maximize the likelihood of observing the sample values rather than that 
+minimize the sum of squared errors (like in ordinary regression).
+
+Why log?
+Since we are working here with a binomial distribution (dependent variable),we need to choose a link function
+which is best suited for this distribution. And, it is logit function. In the equation mentioned above,
+the parameters are chosen to maximize the likelihood of observing the sample values rather than minimizing
+the sum of squared errors(like in ordinaryregression).
