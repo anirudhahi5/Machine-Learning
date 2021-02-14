@@ -1,0 +1,20 @@
+SVM (Support Vector Machine)
+
+Itis a classification method. 
+In this algorithm,we plot each data itemas a pointin n-dimensional space (where n is number offeaturesyou have) 
+with the value of each feature being the value of a particular coordinate.
+
+For example, if we only had two features like Height andHair length of an individual,we’d first plot these two variables 
+in two dimensional space where each point hastwo co-ordinates(these co-ordinates are known as Support Vectors)
+
+Now,wewillfind some line thatsplitsthe data between the two differently classified groups of data. 
+This will be the line such thatthe distancesfromthe closest point in each ofthe two groupswill be farthest away.
+
+the line which splits the data into two differently classified groups is the black line,since the two closest points are the farthest apartfromthe line.
+This line is our classifier. Then, depending on where the testing data lands on either side ofthe line,that’s what class we can classify the newdata as.
+
+Think ofthis algorithmas playing JezzBall in n dimensionalspace.
+The tweaks in the game are:
+You can drawlines/planes at any angles (rather than just horizontal or vertical asin the classic game)
+The objective of the game is to segregate balls of different colors in different rooms.
+And the balls are not moving.
